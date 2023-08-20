@@ -6,6 +6,7 @@ npm --version
 
 local dependency - use it only in this particular project
 npm i <packageName>
+npm i <packageName> -D or npm i <packageName> --save-dev (to install packages as dev dependencies)
 
 
 global dependency - use it in any project
