@@ -22,3 +22,9 @@ npm init -y (everything default)
 How to uninstall a package
 1) npm uninstall packageName
 2) delete node_modules and package-lock.json and the dependency from package.json and then run 'npm install' to reinstall other dependencies
+
+
+
+npx enables us to use local dependencies as global
+npm install -g npx
+to run the app as global: npx packageName app.js
