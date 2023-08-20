@@ -1,0 +1,3 @@
+# to place the node modules in gitignore so that they dont get pushed by source control to github
+
+/node_modules
